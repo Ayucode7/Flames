@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Card</title>
+    <style>
+         body{
+             background-image:url(https://png.pngtree.com/background/20250108/original/pngtree-happy-birthday-background-for-blue-stereo-creative-picture-image_16090792.jpg) ;
+            height: 100vh;
+            background-size: cover;
+            background-position: center
+         }
+        .baby{
+            display: block;
+            height: 400px;
+            clip-path: ellipse(40% 50%);
+            shape-outside: ellipse(45% 50%);
+             margin : auto;
+             margin-top: 1%;
+        }
+        h2{
+            font-family: cursive;
+            text-align: center;
+            color: #062222;
+            font-size: 50px;
+            padding-bottom: 0%;
+            margin-bottom: 0%;
+            color: #da107c;
+        }
+        a{
+            color:#062222;
+            text-align: center;
+            display: block;
+            font-size: 40px;
+            text-decoration: none;
+
+        }
+        h3{
+            text-align: center;
+            font-size: 20px;
+            color: #da107c;
+            font-family: cursive;
+        }
+        .wishes{
+            text-align: center;
+            font-size: 20px;
+            color:#da107c;
+        }
+    </style>
+</head>
+<body > 
+    <h2>Birthday Card</h2>
+    <img class ="baby" src="https://www.itl.cat/pngfile/big/15-158520_cute-baby-wallpaper-download-indian-cute-baby-hd.jpg" alt="Birthday girl pic">
+    <h2 class ="wishes">Today is your big day!</br> I wish you a happy and fun celebration with 
+    </br> of great reats enjoy! May your year ahead be filled with amazing moments.</br>Let's celebrate the fact that you're still here!
+    <br>Enjoy your day to the fullest.</br>I hope your celebration gives you many <br>happy memories!</h2>
+    <h3>From Ayushi Singh</h3>
+    <a href="https://www.google.com/">Someting!</a>
+</body>
+</html>
