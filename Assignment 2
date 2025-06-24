@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+        body{
+            background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190828/pngtree-school-timetable-card-with-laptop-theme-in-background-image_307720.jpg);
+            background-size: cover;
+            height: 100vh;
+            background-position: center;
+        }
+        h1{
+            text-align: center;
+            font-size: 100px;
+            margin-top: 0%;
+            margin-bottom: 2%;
+        }
+        th{
+            font-size: 30px;
+            border: 2px solid black;
+            background-color: #b70a66;
+            
+        }
+        td{
+            font-size: 25px;
+            font-weight:bold;
+            text-decoration:solid;
+            border: 2px solid black;
+        }
+        .blue{
+            background-color: #41d0d0;
+        }
+    </style>
+</head>
+<body>
+    <h1>School Timetable</h1>
+    <table border="2px" align="center" >
+        <thead>
+            <tr style="text-align: center;">
+                <th  class ="blue" width="160px" height ="100px">Time</th>
+                <th width="160px" height ="100px">Monday</th>
+                <th width="160px" height ="100px">Tuesday</th>
+                <th width="160px" height ="100px">Wednesday</th>
+                <th width="160px" height ="100px">Thursday</th>
+                <th width="160px" height ="100px">Friday</th>
+                <th width="160px" height ="100px">Saturday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="text-align: center;">
+                <td class ="blue" width="160px" height ="100px">07:00-8:30</td>
+                <td width="160px" height ="100px"></td>
+                <td width="160px" height ="100px"></td>
+                <td width="160px" height ="100px"></td>
+                <td width="160px" height ="100px"></td>
+                <td width="160px" height ="100px"></td>
+                <td width="160px" height ="100px"></td>
+            </tr>
+            <tr style="text-align: center;"> 
+                <td class ="blue" width ="160px"height="100px">8:30-9:45</td>
+                <td width ="160px"height="100px"></td>
+                <td width ="160px"height="100px"></td>
+                <td width ="160px"height="100px"></td>
+                <td width ="160px"height="100px"></td>
+                <td width ="160px"height="100px"></td>
+                <td width ="160px"height="100px"></td>
+            </tr>
+            <tr style="text-align: center;">
+                <td  class ="blue" width ="160px"height="100px">9:45-10:30</td>
+                <td width ="160px"height="100px"></td>
+                <td width ="160px"height="100px"></td>
+                <td width ="160px"height="100px"></td>
+                <td width ="160px"height="100px"></td>
+                <td width ="160px"height="100px"></td>
+                <td width ="160px"height="100px"></td>
+            </tr>
+            <tr style="text-align: center;">
+                <td class ="blue" width ="160px" height ="100px">10:30-11:30</td>
+                <td width ="160px" height ="100px"></td>
+                <td width ="160px" height ="100px"></td>
+                <td width ="160px" height ="100px"></td>
+                <td width ="160px" height ="100px"></td>
+                <td width ="160px" height ="100px"></td>
+                <td width ="160px" height ="100px"></td>
+            </tr>
+            <tr style="text-align: center;">
+                <td  class ="blue" width ="160px" height ="100px">11:30-13:00</td>
+                <td width ="160px" height ="100px"></td>
+                <td width ="160px" height ="100px"></td>
+                <td width ="160px" height ="100px"></td>
+                <td width ="160px" height ="100px"></td>
+                <td width ="160px" height ="100px"></td>
+                <td width ="160px" height ="100px"></td>
+            </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>
